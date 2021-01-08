@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.CostcoTest.testBase.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.CostcoTest.testCases.TC001_CostcoSearchItem">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="searchItemTest"/>
+        </methods>
+      </class> <!-- com.CostcoTest.testCases.TC001_CostcoSearchItem -->
+      <class name="com.CostcoTest.testCases.TC002_CostcoItemInStockTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="itemPX780InStockTest"/>
+          <include name="setup"/>
+          <include name="setupSearchPage"/>
+        </methods>
+      </class> <!-- com.CostcoTest.testCases.TC002_CostcoItemInStockTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

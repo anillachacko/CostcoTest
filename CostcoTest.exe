@@ -1,0 +1,4 @@
+d:
+cd D:\Anilla\Training\QAJavaAutomation\CostcoTest
+mvn compile
+mvn test

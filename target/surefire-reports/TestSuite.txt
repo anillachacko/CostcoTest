@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 139.604 s <<< FAILURE! - in TestSuite
+com.CostcoTest.testCases.TC002_CostcoItemInStockTest.itemPX780InStockTest  Time elapsed: 21.808 s  <<< FAILURE!
+java.lang.AssertionError: PX-780 not found : Item Out of Stock expected [false] but found [true]
+	at com.CostcoTest.testCases.TC002_CostcoItemInStockTest.itemPX780InStockTest(TC002_CostcoItemInStockTest.java:98)
+

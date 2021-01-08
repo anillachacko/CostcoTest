@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="139.604" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Anisag\.m2\repository\webdriver\chromedriver\win32\87.0.4280.88\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Anilla\Training\QAJavaAutomation\CostcoTest\target\test-classes;D:\Anilla\Training\QAJavaAutomation\CostcoTest\target\classes;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-5\selenium-java-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-5\selenium-api-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-5\selenium-chrome-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\Anisag\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\Anisag\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Anisag\.m2\repository\com\google\guava\guava\28.2-jre\guava-28.2-jre.jar;C:\Users\Anisag\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Anisag\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anisag\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anisag\.m2\repository\org\checkerframework\checker-qual\2.10.0\checker-qual-2.10.0.jar;C:\Users\Anisag\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Anisag\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-5\selenium-chromium-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-5\selenium-devtools-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-5\selenium-http-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-5\selenium-json-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-5\selenium-edge-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-5\selenium-edgehtml-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-5\selenium-firefox-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-5\selenium-firefox-xpi-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-5\selenium-ie-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-5\selenium-opera-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-5\selenium-remote-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\com\squareup\okhttp3\okhttp\4.4.1\okhttp-4.4.1.jar;C:\Users\Anisag\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.61\kotlin-stdlib-1.3.61.jar;C:\Users\Anisag\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Anisag\.m2\repository\com\squareup\okio\okio\2.4.3\okio-2.4.3.jar;C:\Users\Anisag\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.61\kotlin-stdlib-common-1.3.61.jar;C:\Users\Anisag\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\Anisag\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-buffer\4.1.47.Final\netty-buffer-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-common\4.1.47.Final\netty-common-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-codec-http\4.1.47.Final\netty-codec-http-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-codec\4.1.47.Final\netty-codec-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final-linux-x86_64.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final-osx-x86_64.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.47.Final\netty-transport-native-unix-common-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport\4.1.47.Final\netty-transport-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-resolver\4.1.47.Final\netty-resolver-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\opentelemetry\opentelemetry-api\0.2.0\opentelemetry-api-0.2.0.jar;C:\Users\Anisag\.m2\repository\io\grpc\grpc-context\1.24.0\grpc-context-1.24.0.jar;C:\Users\Anisag\.m2\repository\net\bytebuddy\byte-buddy\1.10.8\byte-buddy-1.10.8.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Anisag\.m2\repository\org\asynchttpclient\async-http-client\2.11.0\async-http-client-2.11.0.jar;C:\Users\Anisag\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.11.0\async-http-client-netty-utils-2.11.0.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-codec-socks\4.1.46.Final\netty-codec-socks-4.1.46.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-handler-proxy\4.1.46.Final\netty-handler-proxy-4.1.46.Final.jar;C:\Users\Anisag\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-5\selenium-safari-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-5\selenium-support-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Anisag\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Anisag\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Anisag\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Anisag\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Anisag\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Anisag\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Anisag\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\Anisag\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\Anisag\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\Anisag\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Anisag\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Anisag\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Anisag\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Anisag\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Anisag\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Anisag\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Anisag\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Anisag\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\Anisag\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\Anisag\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Anisag\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Anisag\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Anisag\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Anisag\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Anisag\AppData\Local\Temp\surefire2905561843143029958\surefirebooter3382800709023841866.jar C:\Users\Anisag\AppData\Local\Temp\surefire2905561843143029958 2021-01-08T09-54-19_805-jvmRun1 surefire7168753055177906805tmp surefire_07411273249598338075tmp"/>
+    <property name="surefire.test.class.path" value="D:\Anilla\Training\QAJavaAutomation\CostcoTest\target\test-classes;D:\Anilla\Training\QAJavaAutomation\CostcoTest\target\classes;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-java\4.0.0-alpha-5\selenium-java-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-api\4.0.0-alpha-5\selenium-api-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.0.0-alpha-5\selenium-chrome-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\com\google\auto\service\auto-service-annotations\1.0-rc6\auto-service-annotations-1.0-rc6.jar;C:\Users\Anisag\.m2\repository\com\google\auto\service\auto-service\1.0-rc6\auto-service-1.0-rc6.jar;C:\Users\Anisag\.m2\repository\com\google\auto\auto-common\0.10\auto-common-0.10.jar;C:\Users\Anisag\.m2\repository\com\google\guava\guava\28.2-jre\guava-28.2-jre.jar;C:\Users\Anisag\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Anisag\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Anisag\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Anisag\.m2\repository\org\checkerframework\checker-qual\2.10.0\checker-qual-2.10.0.jar;C:\Users\Anisag\.m2\repository\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar;C:\Users\Anisag\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.0.0-alpha-5\selenium-chromium-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-devtools\4.0.0-alpha-5\selenium-devtools-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-http\4.0.0-alpha-5\selenium-http-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-json\4.0.0-alpha-5\selenium-json-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.0.0-alpha-5\selenium-edge-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-edgehtml-driver\4.0.0-alpha-5\selenium-edgehtml-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.0.0-alpha-5\selenium-firefox-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.0.0-alpha-5\selenium-firefox-xpi-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.0.0-alpha-5\selenium-ie-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.0.0-alpha-5\selenium-opera-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.0.0-alpha-5\selenium-remote-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\com\squareup\okhttp3\okhttp\4.4.1\okhttp-4.4.1.jar;C:\Users\Anisag\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.61\kotlin-stdlib-1.3.61.jar;C:\Users\Anisag\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Anisag\.m2\repository\com\squareup\okio\okio\2.4.3\okio-2.4.3.jar;C:\Users\Anisag\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.61\kotlin-stdlib-common-1.3.61.jar;C:\Users\Anisag\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-handler\4.1.43.Final\netty-handler-4.1.43.Final.jar;C:\Users\Anisag\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-buffer\4.1.47.Final\netty-buffer-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-common\4.1.47.Final\netty-common-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-codec-http\4.1.47.Final\netty-codec-http-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-codec\4.1.47.Final\netty-codec-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-epoll\4.1.47.Final\netty-transport-native-epoll-4.1.47.Final-linux-x86_64.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.47.Final\netty-transport-native-kqueue-4.1.47.Final-osx-x86_64.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.47.Final\netty-transport-native-unix-common-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-transport\4.1.47.Final\netty-transport-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-resolver\4.1.47.Final\netty-resolver-4.1.47.Final.jar;C:\Users\Anisag\.m2\repository\io\opentelemetry\opentelemetry-api\0.2.0\opentelemetry-api-0.2.0.jar;C:\Users\Anisag\.m2\repository\io\grpc\grpc-context\1.24.0\grpc-context-1.24.0.jar;C:\Users\Anisag\.m2\repository\net\bytebuddy\byte-buddy\1.10.8\byte-buddy-1.10.8.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Anisag\.m2\repository\org\asynchttpclient\async-http-client\2.11.0\async-http-client-2.11.0.jar;C:\Users\Anisag\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.11.0\async-http-client-netty-utils-2.11.0.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-codec-socks\4.1.46.Final\netty-codec-socks-4.1.46.Final.jar;C:\Users\Anisag\.m2\repository\io\netty\netty-handler-proxy\4.1.46.Final\netty-handler-proxy-4.1.46.Final.jar;C:\Users\Anisag\.m2\repository\com\sun\activation\javax.activation\1.2.0\javax.activation-1.2.0.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.0.0-alpha-5\selenium-safari-driver-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\seleniumhq\selenium\selenium-support\4.0.0-alpha-5\selenium-support-4.0.0-alpha-5.jar;C:\Users\Anisag\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Anisag\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Anisag\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Anisag\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Anisag\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Anisag\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Anisag\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Anisag\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\Anisag\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;C:\Users\Anisag\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\Users\Anisag\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\Users\Anisag\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Anisag\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Anisag\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Anisag\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Anisag\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\Anisag\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\Users\Anisag\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\Users\Anisag\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\Users\Anisag\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\Anisag\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\Anisag\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\Anisag\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Anisag\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Anisag\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Anisag\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Anisag\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Anisag"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="D:\Anilla\Training\QAJavaAutomation\CostcoTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Anisag\AppData\Local\Temp\surefire2905561843143029958\surefirebooter3382800709023841866.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="Anisag"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.nio.ch.bugLevel" value=""/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\Anisag\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Anisag\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="D:\Anilla\Training\QAJavaAutomation\CostcoTest"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ActiveTcl\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Program Files (x86)\Calibre2\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Java\jdk1.8.0_271\bin;D:\Anilla\Training\Selinium\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Anisag\Anaconda3;C:\Users\Anisag\Anaconda3\Library\mingw-w64\bin;C:\Users\Anisag\Anaconda3\Library\usr\bin;C:\Users\Anisag\Anaconda3\Library\bin;C:\Users\Anisag\Anaconda3\Scripts;C:\Users\Anisag\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Anisag\AppData\Local\Programs\Python\Python36-32\;C:\Users\Anisag\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Aliases;C:\Users\Anisag\AppData\Roaming\Dashlane\6.4.0.12512\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Anisag\AppData\Roaming\Dashlane\6.4.0.12512\ucrt;C:\Users\Anisag\AppData\Roaming\Dashlane\6.4.0.12512\bin\Qt;C:\Users\Anisag\AppData\Roaming\Dashlane\6.4.0.12512\bin\Ssl;C:\Users\Anisag\.dotnet\tools;C:\Users\Anisag\AppData\Local\Programs\Fiddler;C:\Users\Anisag\AppData\Local\Microsoft\WindowsApps;C:\Users\Anisag\AppData\Roaming\Dashlane\6.1905.1.17471\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\Anisag\AppData\Roaming\Dashlane\6.1905.1.17471\ucrt;C:\Users\Anisag\AppData\Roaming\Dashlane\6.1905.1.17471\bin\Qt;C:\Users\Anisag\AppData\Roaming\Dashlane\6.1905.1.17471\bin\Ssl;C:\Program Files\MongoDB\Server\4.0\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\bin;;C:\Program Files\gs\gs9.50\bin\;C:\Users\Anisag\AppData\Roaming\npm;C:\Users\Anisag\.dotnet\tools;C:\Program Files (x86)\Java\jdk1.8.0_271\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="searchItemTest" classname="com.CostcoTest.testCases.TC001_CostcoSearchItem" time="35.52">
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Inside setup
+[DEBUG] 08-01-2021 09:54:26.117 InternalLoggerFactory - Using Log4J2 as the default logging framework
+[DEBUG] 08-01-2021 09:54:26.124 ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+[DEBUG] 08-01-2021 09:54:26.124 ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+[DEBUG] 08-01-2021 09:54:26.127 ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1ebb875
+[DEBUG] 08-01-2021 09:54:26.142 PlatformDependent - Platform: Windows
+[DEBUG] 08-01-2021 09:54:26.143 PlatformDependent0 - -Dio.netty.noUnsafe: false
+[DEBUG] 08-01-2021 09:54:26.143 PlatformDependent0 - Java version: 8
+[DEBUG] 08-01-2021 09:54:26.144 PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+[DEBUG] 08-01-2021 09:54:26.145 PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+[DEBUG] 08-01-2021 09:54:26.145 PlatformDependent0 - java.nio.Buffer.address: available
+[DEBUG] 08-01-2021 09:54:26.145 PlatformDependent0 - direct buffer constructor: available
+[DEBUG] 08-01-2021 09:54:26.146 PlatformDependent0 - java.nio.Bits.unaligned: available, true
+[DEBUG] 08-01-2021 09:54:26.146 PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[DEBUG] 08-01-2021 09:54:26.146 PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+[DEBUG] 08-01-2021 09:54:26.146 PlatformDependent - sun.misc.Unsafe: available
+[DEBUG] 08-01-2021 09:54:26.147 PlatformDependent - -Dio.netty.tmpdir: C:\Users\Anisag\AppData\Local\Temp (java.io.tmpdir)
+[DEBUG] 08-01-2021 09:54:26.147 PlatformDependent - -Dio.netty.bitMode: 32 (sun.arch.data.model)
+[DEBUG] 08-01-2021 09:54:26.147 PlatformDependent - -Dio.netty.maxDirectMemory: 259522560 bytes
+[DEBUG] 08-01-2021 09:54:26.148 PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[DEBUG] 08-01-2021 09:54:26.148 CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+[DEBUG] 08-01-2021 09:54:26.148 PlatformDependent - -Dio.netty.noPreferDirect: false
+[DEBUG] 08-01-2021 09:54:26.157 PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+[DEBUG] 08-01-2021 09:54:26.180 JdkSslContext - Default protocols (JDK): [TLSv1.2, TLSv1.1, TLSv1] 
+[DEBUG] 08-01-2021 09:54:26.180 JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA]
+[DEBUG] 08-01-2021 09:54:26.198 InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[DEBUG] 08-01-2021 09:54:26.198 InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[DEBUG] 08-01-2021 09:54:26.206 MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+[DEBUG] 08-01-2021 09:54:26.215 NioEventLoop - -Dio.netty.noKeySetOptimization: false
+[DEBUG] 08-01-2021 09:54:26.216 NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+[TRACE] 08-01-2021 09:54:26.235 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@17d6814
+[TRACE] 08-01-2021 09:54:26.237 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@168660
+[TRACE] 08-01-2021 09:54:26.238 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@b56a3e
+[TRACE] 08-01-2021 09:54:26.239 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1d0e5b6
+[TRACE] 08-01-2021 09:54:26.239 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@ed46ee
+[TRACE] 08-01-2021 09:54:26.240 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@b0fcd5
+[TRACE] 08-01-2021 09:54:26.241 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1ad94a7
+[TRACE] 08-01-2021 09:54:26.241 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@15835b1
+[TRACE] 08-01-2021 09:54:26.242 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@126d182
+[TRACE] 08-01-2021 09:54:26.243 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@41cf67
+[TRACE] 08-01-2021 09:54:26.243 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@16a7124
+[TRACE] 08-01-2021 09:54:26.244 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@1192705
+[TRACE] 08-01-2021 09:54:26.244 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@6642a5
+[TRACE] 08-01-2021 09:54:26.245 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@809b79
+[TRACE] 08-01-2021 09:54:26.246 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@c126dc
+[TRACE] 08-01-2021 09:54:26.246 NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WindowsSelectorImpl@5e134e
+[DEBUG] 08-01-2021 09:54:26.266 PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 2
+[DEBUG] 08-01-2021 09:54:26.266 PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 2
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.tinyCacheSize: 512
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+[DEBUG] 08-01-2021 09:54:26.267 PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[DEBUG] 08-01-2021 09:54:26.275 ByteBufUtil - -Dio.netty.allocator.type: pooled
+[DEBUG] 08-01-2021 09:54:26.275 ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+[DEBUG] 08-01-2021 09:54:26.275 ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[DEBUG] 08-01-2021 09:54:27.573 DefaultChannelId - -Dio.netty.processId: 23292 (auto-detected)
+[DEBUG] 08-01-2021 09:54:27.575 NetUtil - -Djava.net.preferIPv4Stack: false
+[DEBUG] 08-01-2021 09:54:27.575 NetUtil - -Djava.net.preferIPv6Addresses: false
+[DEBUG] 08-01-2021 09:54:27.925 NetUtil - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+[DEBUG] 08-01-2021 09:54:27.925 NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[DEBUG] 08-01-2021 09:54:28.298 DefaultChannelId - -Dio.netty.machineId: 9c:b6:d0:ff:fe:8a:6e:37 (auto-detected)
+[DEBUG] 08-01-2021 09:54:28.369 AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+[DEBUG] 08-01-2021 09:54:28.369 AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+[DEBUG] 08-01-2021 09:54:28.370 ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1a9dcaa
+[DEBUG] 08-01-2021 09:54:28.390 Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+[DEBUG] 08-01-2021 09:54:28.390 Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+[DEBUG] 08-01-2021 09:54:28.390 Recycler - -Dio.netty.recycler.linkCapacity: 16
+[DEBUG] 08-01-2021 09:54:28.390 Recycler - -Dio.netty.recycler.ratio: 8
+[DEBUG] 08-01-2021 09:54:31.124 ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x55915b6df55111bf
+[INFO ] 08-01-2021 09:54:33.308 TC001_CostcoSearchItem - *************************Starting execution for TC001_CostcoSearchItem************************************
+Check
+[INFO ] 08-01-2021 09:54:36.661 TC001_CostcoSearchItem - *************************Opened application*****************************************
+[INFO ] 08-01-2021 09:54:36.696 TC001_CostcoSearchItem - *************************Checking if Costco Modal Dialog is opened************************************
+[INFO ] 08-01-2021 09:54:36.756 TC001_CostcoSearchItem - *************************Setting region and language************************************
+[INFO ] 08-01-2021 09:54:47.029 TC001_CostcoSearchItem - *************************Search Starting************************************
+Index:0
+actTitleAfterSearch:Casio Digital Pianos & Electric Keyboards | Costco
+searchString:Casio Digital Pianos & Electric Keyboards
+true true
+[INFO ] 08-01-2021 09:55:08.698 TC001_CostcoSearchItem - *************************Search Successful************************************
+D:\Anilla\Training\QAJavaAutomation\CostcoTest\screenshots\searchItemTest.png
+Screenshot Captured for : searchItemTest
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 46396
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 08, 2021 9:54:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="itemPX760InStockTest" classname="com.CostcoTest.testCases.TC002_CostcoItemInStockTest" time="38.396">
+    <system-out><![CDATA[Inside On test Success
+D:\Anilla\Training\QAJavaAutomation\CostcoTest\screenshots\searchItemTest.png
+[TRACE] 08-01-2021 09:55:09.195 WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+Inside setup
+[INFO ] 08-01-2021 09:55:18.041 TC002_CostcoItemInStockTest - *************************Opened application*****************************************
+[INFO ] 08-01-2021 09:55:30.575 TC002_CostcoItemInStockTest - *************************Starting execution for PX760 Search************************************
+[INFO ] 08-01-2021 09:55:48.385 TC002_CostcoItemInStockTest - *************************Looking for PX-760************************************
+[INFO ] 08-01-2021 09:56:08.539 TC002_CostcoItemInStockTest - *************************Found  PX-760************************************
+D:\Anilla\Training\QAJavaAutomation\CostcoTest\screenshots\itemPX760InStockTest.png
+Screenshot Captured for : itemPX760InStockTest
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 33435
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 08, 2021 9:55:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="itemPX780InStockTest" classname="com.CostcoTest.testCases.TC002_CostcoItemInStockTest" time="21.808">
+    <failure message="PX-780 not found : Item Out of Stock expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: PX-780 not found : Item Out of Stock expected [false] but found [true]
+	at com.CostcoTest.testCases.TC002_CostcoItemInStockTest.itemPX780InStockTest(TC002_CostcoItemInStockTest.java:98)
+]]></failure>
+    <system-out><![CDATA[Inside On test Success
+D:\Anilla\Training\QAJavaAutomation\CostcoTest\screenshots\itemPX760InStockTest.png
+[INFO ] 08-01-2021 09:56:19.014 TC002_CostcoItemInStockTest - *************************Opened application*****************************************
+[INFO ] 08-01-2021 09:56:19.809 TC002_CostcoItemInStockTest - *************************Starting execution for PX 780 Search************************************
+[INFO ] 08-01-2021 09:56:30.230 TC002_CostcoItemInStockTest - *************************Looking for PX-780************************************
+[INFO ] 08-01-2021 09:56:41.022 TC002_CostcoItemInStockTest - *************************Not Found for PX-780************************************
+D:\Anilla\Training\QAJavaAutomation\CostcoTest\screenshots\itemPX780InStockTest.png
+Screenshot Captured for : itemPX780InStockTest
+]]></system-out>
+  </testcase>
+</testsuite>
